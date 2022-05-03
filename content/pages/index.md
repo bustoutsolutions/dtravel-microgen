@@ -99,17 +99,6 @@ blocks:
           padding: 0 !important;
         }
 
-      @keyframes slideIn {
-        0 {
-          transform: translateY(-100%);
-          opacity: 0;
-        }
-        80% {
-          transform: translateY(0);
-          opacity: 1;
-        }
-      }
-
       h4 {  
         animation: 1.2s ease-out 0s 1 slideIn;
       }
@@ -129,6 +118,16 @@ blocks:
         }
       }
 
+      @keyframes slideIn {
+        0 {
+          transform: translateY(-100%);
+          opacity: 0;
+        }
+        80% {
+          transform: translateY(0);
+          opacity: 1;
+        }
+      }
       </style>
     navigationLabel: ''
     _template: embed
