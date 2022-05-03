@@ -111,16 +111,16 @@ blocks:
       }
 
       h4 {  
-        animation: 1s ease-out 0s 1 slideIn;
+        animation: 1.2s ease-out 0s 1 slideIn;
       }
       h1 {  
-        animation: 1s ease-out 0s 1 slideIn;
+        animation: 1.3s ease-out 0s 1 slideIn;
       }
       h3 {  
-        animation: 1s ease-out 0s 1 slideIn;
+        animation: 1.5s ease-out 0s 1 slideIn;
       }
       .order-4 {
-        animation: 1s ease-out 0s 1 slideIn;
+        animation: 1.7s ease-out 0s 1 slideIn;
       }
 
       @media (min-width: 900px){
