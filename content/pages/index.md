@@ -14,7 +14,7 @@ blocks:
         text-accent1 font-1 text-2xl mb-14  sm:text-accent1 sm:font-1 sm:text-xl
         sm:mb-14 
       subheadStyles: 'text-accent1 font-2 text-lg mb-4 '
-      textStyles: 'text-accent1 font-2 text-lg mb-11 '
+      textStyles: 'text-accent1 font-2 text-base mb-11 '
       contentOrder: labelHeadingsContent
     background:
       fillStyles: bg-primary
