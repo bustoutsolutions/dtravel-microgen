@@ -66,7 +66,13 @@ blocks:
       a { border-radius: 4px; font-size: 18px !important; line-height: 18px
       !important;
         height: unset !important;
-        padding: 16px 24px; }
+        padding: 16px 24px; transition: opacity .2s ease;}
+      a:hover {
+
+      opacity: .8;
+
+      }
+
       </style>
     navigationLabel: ''
     _template: embed
