@@ -93,6 +93,7 @@ blocks:
         }
         [data-tinafield='blocks.1'] {
           background-color: #000000;
+          display: none;
           position: absolute;
           top: 0;
           left: 0;
@@ -100,8 +101,7 @@ blocks:
           width: 100vw;
           z-index: 1;
         }
-        #video-background {
-          display: none;
+        #background-video {
           height: 100vh;
           overflow: hidden;
         }
@@ -140,7 +140,7 @@ blocks:
        [data-tinafield='blocks.1'] img {
           display: none;
         }
-        #video-background {
+        [data-tinafield='blocks.1'] {
           display: block;
         }
       }
