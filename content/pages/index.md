@@ -53,7 +53,7 @@ blocks:
       position: ''
     markup: |-
       <div id="background-video">
-      <video autoplay playsinline>
+      <video autoplay playsinline muted>
         <source src="/passport-reveal.mp4" type='video/mp4;'>
       </video>
       </div>
@@ -148,7 +148,9 @@ blocks:
       </style>
       <script>
       window.addEventListener('load', (event) => {
+      setTimeout(function(){
         document.body.classList.add("animated");
+      }, 3500);
       });
       </script>
     navigationLabel: ''
