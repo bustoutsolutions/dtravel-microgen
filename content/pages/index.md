@@ -58,6 +58,19 @@ blocks:
       </video>
       </div>
       <style>
+      @keyframes slideIn {
+        from {
+          display: none;
+          transform: translateY(-100%);
+          opacity: 0;
+        }
+        to {
+          display: block;
+          transform: translateY(0);
+          opacity: 1;
+        }
+      }
+
         body { 
           background-color: #070706;
         }
@@ -118,16 +131,7 @@ blocks:
         }
       }
 
-      @keyframes slideIn {
-        0 {
-          transform: translateY(-100%);
-          opacity: 0;
-        }
-        80% {
-          transform: translateY(0);
-          opacity: 1;
-        }
-      }
+
       </style>
     navigationLabel: ''
     _template: embed
