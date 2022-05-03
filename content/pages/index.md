@@ -51,14 +51,22 @@ blocks:
     background:
       fillStyles: bg-black
       position: ''
-    markup: |-
+    markup: >-
       <div id="background-video">
+
       <video controls>
         <source src="myVideo.webm" type="video/webm">
         <source src="myVideo.mp4" type="video/mp4">
       </video>
+
       </div>
+
       <style>
+
+      a { border-radius: 4px; font-size: 18px !important; line-height: 18px
+      !important;
+        height: unset !important;
+        padding: 16px 24px; }
       </style>
     navigationLabel: ''
     _template: embed
