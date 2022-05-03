@@ -53,7 +53,7 @@ blocks:
       position: ''
     markup: |-
       <div id="background-video">
-      <video autoplay>
+      <video autoplay playsinline>
         <source src="/passport-reveal.mp4" type='video/mp4;'>
       </video>
       </div>
