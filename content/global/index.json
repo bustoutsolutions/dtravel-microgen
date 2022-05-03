@@ -21,12 +21,12 @@
     "font4": "Abel:wght@400"
   },
   "sizeLeading": {
-    "textXs": "12/20",
-    "textSm": "14/24",
-    "textMd": "16/28",
-    "textLg": "18/28",
-    "textXl": "20/32",
-    "text2xl": "32/42",
+    "textXs": "14/18",
+    "textSm": "16/20",
+    "textMd": "18/24",
+    "textLg": "24/32",
+    "textXl": "56/56",
+    "text2xl": "88/88",
     "text3xl": "28/40",
     "text4xl": "32/44",
     "text5xl": "36/48",
