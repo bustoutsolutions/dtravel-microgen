@@ -7,9 +7,13 @@ blocks:
       padding: pt-11 pb-11 pr-0 pl-36
       featureImage: object-center object-scale-down to-edge
       imagePadding: pt-0 pb-0 pr-0 pl-0
-      labelStyles: 'text-accent1 font-2 text-sm mb-0 '
-      headlineStyles: 'text-accent1 font-1 text-5xl mb-14 '
-      subheadStyles: 'text-accent1 font-2 text-xl mb-4 '
+      labelStyles: >-
+        text-accent1 font-2 text-sm mb-0  sm:text-accent1 sm:font-2 sm:text-xs
+        sm:mb-0 
+      headlineStyles: >-
+        text-accent1 font-1 text-2xl mb-14  sm:text-accent1 sm:font-1 sm:text-xl
+        sm:mb-14 
+      subheadStyles: 'text-accent1 font-2 text-lg mb-4 '
       textStyles: 'text-accent1 font-2 text-lg mb-11 '
       contentOrder: labelHeadingsContent
     background:
