@@ -61,7 +61,7 @@ blocks:
       @keyframes slideIn {
         from {
           display: none;
-          transform: translateY(-100%);
+          transform: translateY(100%);
           opacity: 0;
         }
         to {
@@ -101,6 +101,7 @@ blocks:
           z-index: 1;
         }
         #video-background {
+          display: none;
           height: 100vh;
           overflow: hidden;
         }
@@ -112,27 +113,44 @@ blocks:
           padding: 0 !important;
         }
 
-      h4 {  
-        animation: 1.2s ease-out 0s 1 slideIn;
+      h1, h2, h3, h4, .order-4 a {
+      opacity: 0;
+      transition: opacity .3s ease-in;
       }
-      h1 {  
+
+      body.animated h4 {  
+        animation: 1.1s ease-out 0s 1 slideIn;
+        opacity: 1;
+      }
+      body.animated h1 {  
         animation: 1.3s ease-out 0s 1 slideIn;
+        opacity: 1;
       }
-      h3 {  
+      body.animated h3 {  
         animation: 1.5s ease-out 0s 1 slideIn;
+        opacity: 1;
       }
-      .order-4 {
+      body.animated .order-4 a {
         animation: 1.7s ease-out 0s 1 slideIn;
+        opacity: 1;
       }
 
       @media (min-width: 900px){
        [data-tinafield='blocks.1'] img {
           display: none;
         }
+        #video-background {
+          display: block;
+        }
       }
 
 
       </style>
+      <script>
+      window.addEventListener('load', (event) => {
+        document.body.classList.add("animated");
+      });
+      </script>
     navigationLabel: ''
     _template: embed
 meta:
