@@ -51,26 +51,82 @@ blocks:
     background:
       fillStyles: bg-black
       position: ''
-    markup: >-
+    markup: |-
       <div id="background-video">
-
-      <video controls>
-        <source src="myVideo.webm" type="video/webm">
-        <source src="myVideo.mp4" type="video/mp4">
+      <video autoplay>
+        <source src="/passport-reveal.mp4" type='video/mp4;'>
       </video>
-
       </div>
-
       <style>
+        body { 
+          background-color: #070706;
+        }
 
-      a { border-radius: 4px; font-size: 18px !important; line-height: 18px
-      !important;
-        height: unset !important;
-        padding: 16px 24px; transition: opacity .2s ease;}
-      a:hover {
+        h1, h2, h3, h4, a {
+          position:relative;
+          z-index: 2;
+        }
 
-      opacity: .8;
+        a { 
+          border-radius: 4px; 
+          font-size: 18px !important; 
+          line-height: 18px !important;
+          height: unset !important;
+          padding: 16px 24px; 
+          transition: opacity .2s ease;
+        }
+        a:hover {
+          opacity: .8;
+        }
+        [data-tinafield='blocks.1'] {
+          background-color: #000000;
+          position: absolute;
+          top: 0;
+          left: 0;
+          height: 100vh;
+          width: 100vw;
+          z-index: 1;
+        }
+        #video-background {
+          height: 100vh;
+          overflow: hidden;
+        }
+        .max-w-desktop-full {
+          max-width: 1400px;
+        }
+        [data-tinafield='blocks.1'] .max-w-desktop-full {
+          max-width: 100vw !important; 
+          padding: 0 !important;
+        }
 
+      @keyframes slideIn {
+        0 {
+          transform: translateY(-100%);
+          opacity: 0;
+        }
+        80% {
+          transform: translateY(0);
+          opacity: 1;
+        }
+      }
+
+      h4 {  
+        animation: 1s ease-out 0s 1 slideIn;
+      }
+      h1 {  
+        animation: 1s ease-out 0s 1 slideIn;
+      }
+      h3 {  
+        animation: 1s ease-out 0s 1 slideIn;
+      }
+      .order-4 {
+        animation: 1s ease-out 0s 1 slideIn;
+      }
+
+      @media (min-width: 900px){
+       [data-tinafield='blocks.1'] img {
+          display: none;
+        }
       }
 
       </style>
