@@ -122,7 +122,8 @@ blocks:
         animation: 1.1s ease-out 0s 1 slideIn;
         opacity: 1;
       }
-      body.animated h1 {  
+      body.animated h1,
+      body.animated h2 {  
         animation: 1.3s ease-out 0s 1 slideIn;
         opacity: 1;
       }
