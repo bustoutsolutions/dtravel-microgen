@@ -16,4 +16,4 @@ https://microgen.vercel.app/admin/
 - [Release notes](docs/RELEASE_NOTES.md)
 
 ---
-*This README file is intended to serve as a template for your project, please modify it to suit.*
+*Dtravel - This README file is intended to serve as a template for your project, please modify it to suit.*
