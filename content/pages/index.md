@@ -2,11 +2,11 @@
 draft: true
 blocks:
   - style:
-      alignment: 'flex-row-reverse text-left items-center sm:flex-col'
-      featureContent: 'w-2/3 min-h-screen '
-      padding: pt-11 pb-11 pr-0 pl-0
+      alignment: 'flex-row-reverse text-center items-center sm:flex-col'
+      featureContent: w-1/2 min-h-screen to-edge
+      padding: 'pt-28 pb-28 pr-0 pl-36 sm:pt-0 sm:pb-20 sm:pr-6 sm:pl-6'
       featureImage: object-center object-scale-down to-edge
-      imagePadding: pt-0 pb-0 pr-0 pl-0
+      imagePadding: 'pt-0 pb-0 pr-36 pl-0 sm:pt-6 sm:pb-0 sm:pr-6 sm:pl-6'
       labelStyles: >-
         text-accent1 font-2 text-sm mb-3  sm:text-accent1 sm:font-2 sm:text-xs
         sm:mb-3 
