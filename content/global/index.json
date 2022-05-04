@@ -15,9 +15,9 @@
     "black": "#070706"
   },
   "fonts": {
-    "font1": "Neuton:wght@400;700",
-    "font2": "Space Grotesk:wght@400;700",
-    "font3": "Abel:wght@400",
+    "font1": "Reckless Neue",
+    "font2": "Radio Grotesk",
+    "font3": "Radio Grotesk Light",
     "font4": "Abel:wght@400"
   },
   "sizeLeading": {
