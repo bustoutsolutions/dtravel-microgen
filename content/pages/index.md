@@ -23,7 +23,7 @@ blocks:
       position: ''
     image:
       src: >-
-        https://res.cloudinary.com/tombustout/image/upload/v1651547935/passport_img_uygam9.jpg
+        https://res.cloudinary.com/tombustout/image/upload/v1651634180/passport-stars_nag474.jpg
       alt: TRVL PASSPORT app shiny gold
     label: A NEW WORLD FOR TRAVELERS
     headline: 'Build your travel identity, on-chain.'
