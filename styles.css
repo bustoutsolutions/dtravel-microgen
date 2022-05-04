@@ -22,6 +22,24 @@
   font-weight: 700;
   src: url('/fonts/SuisseIntl-BoldItalic-WebM.woff') format('woff');
 }
+@font-face {
+  font-family: 'Radio Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/PPRadioGrotesk-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Radio Grotesk Light';
+  font-style: normal;
+  font-weight: 300;
+  src: url('/fonts/PPRadioGrotesk-Light.woff') format('woff');
+}
+@font-face {
+  font-family: 'Reckless Neue';
+  font-style: normal;
+  font-weight: 300;
+  src: url('/fonts/RecklessNeue-Light.woff') format('woff');
+}
 
 .markdown p:not(:last-child) {
   margin-bottom: 1rem;
@@ -59,6 +77,118 @@ section > .text-right .markdown img {
   max-width: 450px;
 }
 #modal-root > div > div:last-child {
+  display: none;
+}
+
+/* dtravel Passport specific */
+@keyframes slideIn {
+  from {
+    top: -40px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+body { 
+  background-color: #070706;
+}
+h1, h2, h3, h4, a {
+  position:relative;
+  z-index: 2;
+}
+h4 {
+  letter-spacing: .1em;
+}
+h2, h1 {
+  letter-spacing: -0.015em;
+}
+h3 {
+  max-width: 700px;
+}
+a { 
+  border-radius: 4px; 
+  font-family: 'Radio Grotesk';
+  font-size: 18px !important; 
+  line-height: 18px !important;
+  height: unset !important;
+  padding: 16px 24px; 
+  transition: opacity .2s ease;
+  width: 100%;
+}
+a:hover {
+  opacity: .8 !important;
+}
+
+[data-tinafield='blocks.1'] {
+  background-color: #000000;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+}
+#background-video {
+  height: 100vh;
+  overflow: hidden;
+}
+#background-video video {
+  height: 100vh;
+  object-fit: cover;
+  width: 100vw;
+}
+[data-tinafield='blocks.1'] .max-w-desktop-full {
+  max-width: 100vw !important; 
+  padding: 0 !important;
+}
+
+@media (min-width: 1024px){
+  .max-w-desktop-full {
+    max-width: 100vw !important;
+  }
+ [data-tinafield='blocks.1'] img {
+    display: none;
+  }
+  [data-tinafield='blocks.1'] {
+    display: block;
+  }
+  h1, h2, h3, h4, .order-4 a {
+  display: none;
+  opacity: 0;
+  overflow: hidden;
+  text-align: left;
+  transition: opacity .3s ease-in;
+  }
+  body.animated h1, 
+  body.animated h2, 
+  body.animated h3, 
+  body.animated h4, 
+  body.animated .order-4 a {
+    animation: 1s linear 0s 1 slideIn;
+    display: block;
+    opacity: 1;
+  }
+}
+
+@media (min-width: 700px){
+  h2, h1 {
+    letter-spacing: -0.025em;
+  }
+  .order-4 {
+    margin-left: 0 !important;
+  }
+  .order-4 a {
+    width: auto;
+  }
+}
+
+/* hide the hamburger */
+.absolute.top-0.p-4.right-0.hidden.sm\:block,
+.absolute.top-0.p-4.right-0.hidden.sm\:block + ul {
   display: none;
 }
 

@@ -78,7 +78,7 @@ export const Content = ({
   return (
     <div className={`flex flex-col ${width}`}>
       {label &&<h4 className={`${labelOrder(order)} ${labelStyles}`} data-tinafield={`${parentField}.label`}>{label}</h4>}
-      {headline && <h2 className={`${headingOrder(order)} ${headlineStyles}`} data-tinafield={`${parentField}.headline`}>{headline}</h2>}
+      {headline && <h1 className={`${headingOrder(order)} ${headlineStyles}`} data-tinafield={`${parentField}.headline`}>{headline}</h1>}
       {subhead && <h3 className={`${subheadOrder(order)} ${subheadStyles}`} data-tinafield={`${parentField}.subhead`}>{subhead}</h3>}
       {body?.children && (
         <div className={`markdown items-center ${bodyOrder(order)} ${textStyles}`} data-tinafield={`${parentField}.body`}>
