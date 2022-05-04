@@ -18,6 +18,8 @@ blocks:
       contentOrder: labelHeadingsContent
     background:
       fillStyles: bg-primary
+      src: >-
+        https://res.cloudinary.com/tombustout/image/upload/v1651634001/dtravel-stars_v8tu2z.jpg
       position: ''
     image:
       src: >-
