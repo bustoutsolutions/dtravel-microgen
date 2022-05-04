@@ -54,103 +54,15 @@ blocks:
     markup: |-
       <div id="background-video">
       <video autoplay playsinline muted>
-        <source src="/passport-reveal.mp4" type='video/mp4;'>
+        <source src="/PassportReveal_04.mp4" type='video/mp4;'>
       </video>
       </div>
-      <style>
-      @keyframes slideIn {
-        from {
-          display: none;
-          transform: translateY(100%);
-          opacity: 0;
-        }
-        to {
-          display: block;
-          transform: translateY(0);
-          opacity: 1;
-        }
-      }
 
-        body { 
-          background-color: #070706;
-        }
-
-        h1, h2, h3, h4, a {
-          position:relative;
-          z-index: 2;
-        }
-
-        a { 
-          border-radius: 4px; 
-          font-size: 18px !important; 
-          line-height: 18px !important;
-          height: unset !important;
-          padding: 16px 24px; 
-          transition: opacity .2s ease;
-        }
-        a:hover {
-          opacity: .8;
-        }
-        [data-tinafield='blocks.1'] {
-          background-color: #000000;
-          display: none;
-          position: absolute;
-          top: 0;
-          left: 0;
-          height: 100vh;
-          width: 100vw;
-          z-index: 1;
-        }
-        #background-video {
-          height: 100vh;
-          overflow: hidden;
-        }
-
-        [data-tinafield='blocks.1'] .max-w-desktop-full {
-          max-width: 100vw !important; 
-          padding: 0 !important;
-        }
-
-      @media (min-width: 900px){
-        .max-w-desktop-full {
-          max-width: 1400px;
-        }
-       [data-tinafield='blocks.1'] img {
-          display: none;
-        }
-        [data-tinafield='blocks.1'] {
-          display: block;
-        }
-      h1, h2, h3, h4, .order-4 a {
-      opacity: 0;
-      transition: opacity .3s ease-in;
-      }
-
-      body.animated h4 {  
-        animation: 1.1s ease-out 0s 1 slideIn;
-        opacity: 1;
-      }
-      body.animated h1, body.animated h2 {  
-        animation: 1.3s ease-out 0s 1 slideIn;
-        opacity: 1;
-      }
-      body.animated h3 {  
-        animation: 1.5s ease-out 0s 1 slideIn;
-        opacity: 1;
-      }
-      body.animated .order-4 a {
-        animation: 1.7s ease-out 0s 1 slideIn;
-        opacity: 1;
-      }
-      }
-
-
-      </style>
       <script>
       window.addEventListener('load', (event) => {
       setTimeout(function(){
         document.body.classList.add("animated");
-      }, 3500);
+      }, 10000);
       });
       </script>
     navigationLabel: ''
