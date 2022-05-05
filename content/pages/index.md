@@ -8,8 +8,8 @@ blocks:
       featureImage: object-center object-scale-down to-edge
       imagePadding: 'pt-0 pb-0 pr-36 pl-0 sm:pt-6 sm:pb-0 sm:pr-6 sm:pl-6'
       labelStyles: >-
-        text-accent1 font-2 text-sm mb-3  sm:text-accent1 sm:font-2 sm:text-xs
-        sm:mb-3 
+        text-accent1 font-2 text-sm mb-6  sm:text-accent1 sm:font-2 sm:text-xs
+        sm:mb-5 
       headlineStyles: >-
         text-accent1 font-1 text-2xl mb-10  sm:text-accent1 sm:font-1 sm:text-xl
         sm:mb-10 
@@ -18,12 +18,10 @@ blocks:
       contentOrder: labelHeadingsContent
     background:
       fillStyles: bg-primary
-      src: >-
-        https://res.cloudinary.com/tombustout/image/upload/v1651634001/dtravel-stars_v8tu2z.jpg
+      src: /dtravel-stars.jpg
       position: ''
     image:
-      src: >-
-        https://res.cloudinary.com/tombustout/image/upload/v1651634180/passport-stars_nag474.jpg
+      src: /passport-stars.jpg
       alt: TRVL PASSPORT app shiny gold
     label: A NEW WORLD FOR TRAVELERS
     headline: 'Build your travel identity, on-chain.'
