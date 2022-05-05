@@ -95,6 +95,9 @@ section > .text-right .markdown img {
 body { 
   background-color: #070706;
 }
+[data-tinafield='blocks.0'] .flex-col {
+  margin-top: -50px;
+}
 [data-tinafield='blocks.0'] h1, 
 [data-tinafield='blocks.0'] h2, 
 [data-tinafield='blocks.0'] h3, 
@@ -165,6 +168,10 @@ body {
   .max-w-desktop-full {
     max-width: 100vw !important;
   }
+  [data-tinafield='blocks.0'] .flex-col {
+    margin-top: 0;
+    max-width: none !important;
+  }
  [data-tinafield='blocks.1'] img {
     display: none;
   }
@@ -208,7 +215,6 @@ body {
     max-width: 568px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -50px;
   }
 
   [data-tinafield='blocks.0'] h2, 
@@ -230,11 +236,7 @@ body {
 @media (max-width: 600px){
   .relative > img.w-full {
     height: 600px;
-    left: 44vw;
-    max-width: none;
-    position: relative;
-    transform: translateX(-50%);
-    width: auto;
+    object-fit: cover;
   }
 }
 
