@@ -48,9 +48,9 @@ module.exports = {
     },
     screens: {
 			xl: { max: "1280px" },
-			lg: { max: "1024px" },
+			lg: { max: "1025px" },
 			md: { max: "768px" },
-			sm: { max: "1024px" },
+			sm: { max: "1025px" },
 		},
     fontSize: {
       xs: [ "var(--text-size-xs)", { lineHeight: "var(--text-leading-xs)" }],

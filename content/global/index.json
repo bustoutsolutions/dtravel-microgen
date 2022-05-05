@@ -1,6 +1,6 @@
 {
   "siteUrl": "https://passport.trvl.com/",
-  "favicon": "https://res.cloudinary.com/tombustout/image/upload/v1651544725/trvl_favicon_g3itww.png",
+  "favicon": "/trvl_favicon.png",
   "gtmId": "",
   "colors": {
     "primary": "#070706",
@@ -40,7 +40,7 @@
   "logo": {
     "logoType": "Microgen",
     "logoTypeStyle": "text-white undefined text-base undefined font-bold",
-    "image": "https://res.cloudinary.com/tombustout/image/upload/v1651763224/trvl_passport_logo_qss7py.svg",
+    "image": "/trvl_passport_logo.svg",
     "imageWidth": "254",
     "imageHeight": "40",
     "imageMargin": "24"
